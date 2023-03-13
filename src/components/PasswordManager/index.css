@@ -1,0 +1,120 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.manager-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-app {
+  width: 300px;
+  align-self: flex-start;
+  margin-left: 110px;
+}
+
+.card-image-input-container {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.card-form-input-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #454f84;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.heading-manager {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.logo {
+  width: 30px;
+}
+
+.input-Element {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  border-left: 2px solid #64748b;
+  font-family: 'Roboto';
+}
+
+.password-image-manager {
+  width: 400px;
+}
+
+.button-add {
+  align-self: flex-end;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+}
+
+.bg-card-second-Container {
+  background-color: #5763a5;
+  display: flex;
+  height: 35vh;
+  width: 80%;
+  padding: 20px;
+}
+
+.your-count {
+  color: #ffffff;
+}
+
+.count-search-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.input-container-search {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  align-items: center;
+}
+
+.search-input-icon {
+  width: 30px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid #64748b;
+}
