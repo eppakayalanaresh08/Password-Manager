@@ -1,32 +1,55 @@
 .bg-container {
   background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
-  height: 100vh;
+  min-height: 100vh;
   padding: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .manager-container {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .manager-container {
+    width: 80%;
+  }
+}
+
 .image-app {
-  width: 300px;
+  width: 200px;
   align-self: flex-start;
-  margin-left: 110px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-app {
+    width: 300px;
+    align-self: flex-start;
+    margin-left: 110px;
+  }
 }
 
 .card-image-input-container {
   background-color: #5763a5;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50vh;
-  width: 80%;
+  flex-direction: column;
+  min-height: 50vh;
+  width: 90%;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-image-input-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .card-form-input-container {
@@ -34,6 +57,18 @@
   flex-direction: column;
   background-color: #454f84;
   padding: 20px;
+  margin: 10px;
+  order: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .card-form-input-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #454f84;
+    padding: 20px;
+    order: 1;
+  }
 }
 
 .input-container {
@@ -67,7 +102,14 @@
 }
 
 .password-image-manager {
-  width: 400px;
+  width: 300px;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .password-image-manager {
+    width: 400px;
+  }
 }
 
 .button-add {
@@ -85,13 +127,43 @@
 .bg-card-second-Container {
   background-color: #5763a5;
   display: flex;
-  height: 35vh;
-  width: 80%;
+  flex-direction: column;
+  height: 45vh;
+  width: 90%;
   padding: 20px;
 }
 
-.your-count {
+@media screen and (min-width: 768px) {
+  .bg-card-second-Container {
+    width: 80%;
+  }
+}
+
+.your-count-name {
   color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .your-count-name {
+    font-size: 19px;
+  }
+}
+
+.count {
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: 2px solid #9ba9eb;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
 }
 
 .count-search-container {
@@ -107,6 +179,13 @@
   align-items: center;
   background-color: #f8fafc;
   align-items: center;
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container-search {
+    width: 300px;
+  }
 }
 
 .search-input-icon {
@@ -117,4 +196,45 @@
   background-color: transparent;
   border: none;
   border-left: 2px solid #64748b;
+  outline: none;
+}
+
+.horizontal-line {
+  display: flex;
+  border: 1px solid #ffffff;
+  width: 100%;
+}
+
+.container-horizontal {
+  display: flex;
+}
+
+.no-passwords {
+  width: 200px;
+}
+
+.container-image-no-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-passwords-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.lists-objects {
+  display: flex;
+  width: 90%;
+}
+.list-show-password {
+  align-self: flex-end;
+  list-style-type: none;
+}
+
+.show-password {
+  color: #ffffff;
+  font-family: 'Roboto';
 }

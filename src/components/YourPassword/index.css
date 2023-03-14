@@ -1,0 +1,48 @@
+.list-each-identifier {
+  display: flex;
+  border: 1px solid #7683cb;
+  justify-content: space-between;
+  width: 25%;
+  align-items: center;
+  margin-right: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.container-letter {
+  background-color: #10b981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.delete-icon {
+  width: 20px;
+}
+
+.website-each-manager {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.username-each-manager {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.password-each-manager {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.image-stars {
+  width: 50px;
+}
+
+.button-image-delete {
+  background-color: transparent;
+  border: none;
+}
